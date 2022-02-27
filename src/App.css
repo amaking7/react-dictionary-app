@@ -1,3 +1,11 @@
+body {
+  background: #faf7f3;
+  color: #4f4f4f;
+  font-family: "Courier Prime", monospace;
+  font-size: 22px;
+  line-height: 140%;
+}
+
 .App-header {
   margin: 80px 0;
 }
@@ -11,12 +19,60 @@
 .App-footer {
   text-align: center;
   margin: 80px 0;
+  font-size: 22px;
+  line-height: 130%;
 }
 
 .App a {
-  text-decoration: none;
+  color: #4a7856;
 }
 
-body {
-  background: #faf7f3;
+.App .container {
+  max-width: 700px;
+}
+
+.App h2,
+h3 {
+  font-weight: 700;
+}
+
+.App h2 {
+  font-size: 56px;
+  line-height: 120%;
+  letter-spacing: -0.03em;
+}
+
+.App h3 {
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+}
+
+/*Styles for sm and xs breakpoints*/
+
+@media (max-width: 768px) {
+  body {
+    margin: 0 8px;
+  }
+
+  .App-header {
+    margin: 40px 0;
+  }
+
+  .App-logo {
+    max-width: 320px;
+  }
+
+  .App-footer {
+    margin: 40px 0;
+    font-size: 18px;
+  }
+
+  .App h2 {
+    font-size: 48px;
+  }
+
+  .App h3 {
+    font-size: 32px;
+  }
 }
