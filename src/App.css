@@ -1,9 +1,9 @@
 .App-header {
-  margin: 40px 0;
+  margin: 80px 0;
 }
 
 .App-logo {
-  max-width: 300px;
+  max-width: 400px;
   display: block;
   margin: 0 auto;
 }
@@ -15,4 +15,8 @@
 
 .App a {
   text-decoration: none;
+}
+
+body {
+  background: #faf7f3;
 }

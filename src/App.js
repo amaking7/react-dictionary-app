@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./cactus-header.svg";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -20,7 +20,7 @@ export default function App() {
             >
               Open-source code
             </a>{" "}
-            by Amanda
+            by Amanda 🌵
           </small>
         </footer>
       </div>
