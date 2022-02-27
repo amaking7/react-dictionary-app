@@ -17,6 +17,7 @@ export default function App() {
             <a
               href="https://github.com/amaking7/react-dictionary-app"
               target="_blank"
+              rel="noreferrer"
             >
               Open-source code
             </a>{" "}
