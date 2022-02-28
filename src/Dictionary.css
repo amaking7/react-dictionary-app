@@ -13,10 +13,49 @@
   border-radius: 8px;
 }
 
+.Dictionary .Phonetic {
+  margin-bottom: 16px;
+}
+
+.Dictionary .phonetics-audio {
+  margin-right: 16px;
+}
+
+.Dictionary .meaning-text {
+  margin-bottom: 32px;
+}
+
+.Dictionary .definition-text {
+  margin-bottom: 8px;
+}
+
+.Dictionary .example-text {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 130%;
+}
+
 /*Styles for sm and xs breakpoints*/
 
 @media (max-width: 768px) {
   .Dictionary section {
     margin-bottom: 40px;
+  }
+
+  .Dictionary .Phonetic {
+    margin-bottom: 12px;
+  }
+
+  .Dictionary .phonetics-audio {
+    margin-right: 8px;
+  }
+
+  .Dictionary .meaning-text {
+    margin-bottom: 24px;
+  }
+
+  .Dictionary .example-text {
+    font-style: italic;
+    font-size: 14px;
   }
 }

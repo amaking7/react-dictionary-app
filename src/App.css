@@ -25,6 +25,13 @@ body {
 
 .App a {
   color: #4a7856;
+  padding: 4px;
+  transition: ease-in-out 300ms;
+}
+
+.App a:hover {
+  color: white;
+  background-color: #4a7856;
 }
 
 .App .container {
@@ -46,6 +53,7 @@ h3 {
   font-size: 40px;
   line-height: 130%;
   letter-spacing: -0.02em;
+  margin-bottom: 40px;
 }
 
 /*Styles for sm and xs breakpoints*/
@@ -53,6 +61,7 @@ h3 {
 @media (max-width: 768px) {
   body {
     margin: 0 8px;
+    font-size: 18px;
   }
 
   .App-header {
@@ -60,7 +69,7 @@ h3 {
   }
 
   .App-logo {
-    max-width: 320px;
+    max-width: 100%;
   }
 
   .App-footer {
@@ -74,5 +83,6 @@ h3 {
 
   .App h3 {
     font-size: 32px;
+    margin-bottom: 24px;
   }
 }
