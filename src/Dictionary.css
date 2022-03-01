@@ -36,6 +36,11 @@
   color: #4a7856;
 }
 
+.Dictionary img {
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
 /*Styles for sm and xs breakpoints*/
 
 @media (max-width: 768px) {
@@ -58,5 +63,9 @@
   .Dictionary .example-text {
     font-style: italic;
     font-size: 14px;
+  }
+
+  .Dictionary img {
+    margin-bottom: 16px;
   }
 }
